@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Nueva Vida</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        #contenido {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+        #searchInput {
+            padding: 10px;
+            width: 300px;
+            margin: 20px auto;
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hospital El Día Final</h1>
+    <p><strong>Dirección: Guillermo Prieto 34-17, Centro, 76750 Tequisquiapan, Qro.</strong></p>
+    <p><strong>Números de Emergencia: +52 4141070873 / +52 41410555739</strong></p>
+    <img src="cruzazul.jpg" alt="Logo Hospital" width="100" height="100" id="logo">
+    
+    <!-- Campo de búsqueda -->
+    <input type="text" id="searchInput" placeholder="Buscar paciente o medicamento..." />
+    <button id="btnBuscar">Buscar</button>
+
+    <button id="btnPacientes">Datos de Pacientes (JSON)</button>
+    <button id="btnMedicamentos">Información de Medicamentos (JSON)</button>
+    <button id="btnPacientesXML">Mostrar Pacientes (XML)</button>
+    <button id="btnMedicamentosXML">Mostrar Medicamentos (XML)</button>
+
+    <div id="contenido"></div>
+
+    <script src="script.js"></script>
+    <footer>
+        <p><strong>Elaborado por: Ivan Hernandez Gonzalez y Edgar Sanchez Sanchez </strong></p>
+    </footer>
+</body>
+</html>

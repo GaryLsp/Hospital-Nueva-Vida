@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<medicamentos xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="medicamentos.xsd">
+  <medicamento>
+    <clave>MED123</clave>
+    <nombre>Paracetamol</nombre>
+    <via_administracion>Oral</via_administracion>
+    <dosis>500mg</dosis>
+    <contenido_neto>20 tabletas</contenido_neto>
+    <fecha_caducidad>2025-03-01</fecha_caducidad>
+  </medicamento>
+  <medicamento>
+    <clave>MED456</clave>
+    <nombre>Ibuprofeno</nombre>
+    <via_administracion>Oral</via_administracion>
+    <dosis>400mg</dosis>
+    <contenido_neto>30 tabletas</contenido_neto>
+    <fecha_caducidad>2024-12-15</fecha_caducidad>
+  </medicamento>
+  <medicamento>
+    <clave>MED789</clave>
+    <nombre>Amoxicilina</nombre>
+    <via_administracion>Oral</via_administracion>
+    <dosis>250mg</dosis>
+    <contenido_neto>15 capsulas</contenido_neto>
+    <fecha_caducidad>2025-01-10</fecha_caducidad>
+  </medicamento>
+	<medicamento>
+    <clave>MED101</clave>
+    <nombre>Loratadina</nombre>
+    <via_administracion>Oral</via_administracion>
+    <dosis>10mg</dosis>
+    <contenido_neto>10 tabletas</contenido_neto>
+    <fecha_caducidad>2024-11-20</fecha_caducidad>
+  </medicamento>
+	<medicamento>
+    <clave>MED102</clave>
+    <nombre>Metformina</nombre>
+    <via_administracion>Oral</via_administracion>
+    <dosis>500mg</dosis>
+    <contenido_neto>30 tabletas</contenido_neto>
+    <fecha_caducidad>2025-06-15</fecha_caducidad>
+  </medicamento>
+	<medicamento>
+    <clave>MED103</clave>
+    <nombre>Cetirizina</nombre>
+    <via_administracion>Oral</via_administracion>
+    <dosis>10mg</dosis>
+    <contenido_neto>20 tabletas</contenido_neto>
+    <fecha_caducidad>2024-10-05</fecha_caducidad>
+  </medicamento>
+	<medicamento>
+    <clave>MED104</clave>
+    <nombre>Atorvastatina</nombre>
+    <via_administracion>Oral</via_administracion>
+    <dosis>20mg</dosis>
+    <contenido_neto>30 tabletas</contenido_neto>
+    <fecha_caducidad>2025-04-30</fecha_caducidad>
+  </medicamento>
+	<medicamento>
+    <clave>MED105</clave>
+    <nombre>Omeprazol</nombre>
+    <via_administracion>Oral</via_administracion>
+    <dosis>20mg</dosis>
+    <contenido_neto>14 tabletas</contenido_neto>
+    <fecha_caducidad>2025-02-25</fecha_caducidad>
+  </medicamento>
+	<medicamento>
+    <clave>MED105</clave>
+    <nombre>Salbutamol</nombre>
+    <via_administracion>Inhalacion</via_administracion>
+    <dosis>100mg</dosis>
+    <contenido_neto>200 dosis</contenido_neto>
+    <fecha_caducidad>2024-12-01</fecha_caducidad>
+  </medicamento>
+	<medicamento>
+    <clave>MED107</clave>
+    <nombre>Prednisona</nombre>
+    <via_administracion>Oral</via_administracion>
+    <dosis>10mg</dosis>
+    <contenido_neto>20 tabletas</contenido_neto>
+    <fecha_caducidad>2025-05-15</fecha_caducidad>
+  </medicamento>
+</medicamentos>
